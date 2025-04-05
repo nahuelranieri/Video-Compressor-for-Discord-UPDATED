@@ -1,8 +1,8 @@
-# Simple Video Compressor for Discord
+# Simple Video Compressor for Discord UPDATED (2025)
 
-I was bored and created this tool to compress video to fit Discord policy
+This project is a fork of the original made by [Mightypotatotoast](https://github.com/Mightypotatoast/Video-Compressor-for-Discord).
 
----
+Since Discord updated their upload limits (10mb for the free tier, 50mb for the Nitro Basic tier and 500mb for the Nitro tier) I decided to update the program. 
 
 ## Getting Started
 

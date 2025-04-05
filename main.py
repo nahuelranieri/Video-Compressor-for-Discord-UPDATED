@@ -4,7 +4,8 @@ from tkinter import filedialog
 from compress import compress_video
 from tkinter import ttk
 from ttkthemes import ThemedTk
-from tkdnd import *
+# from tkdnd import *
+from tkinterdnd2 import * # Changed from 'from tkdnd import *'
 
 def get_path(event):
     if event.data.endswith(".mp4}"):
@@ -59,8 +60,8 @@ button_explore = ttk.Button(
 # create a frame containing 3 radio button for different file size
 frame = Frame(wind)
 limit_file_size = IntVar()
-R1 = ttk.Radiobutton(frame, text="25MB", variable=limit_file_size, value=25000)
-R2 = ttk.Radiobutton(frame, text="100MB", variable=limit_file_size, value=100000)
+R1 = ttk.Radiobutton(frame, text="10MB", variable=limit_file_size, value=10000)
+R2 = ttk.Radiobutton(frame, text="50MB", variable=limit_file_size, value=50000)
 R3 = ttk.Radiobutton(frame, text="500MB",
                      variable=limit_file_size, value=500000)
 R1.invoke()  # R1 is selectionned by default
