@@ -12,10 +12,10 @@ buildOptions = dict(
     includes=["tkinter", "ffmpeg"],
     include_files=["./bin"]
 )
-
+#updated version & renamed the zip file for integrity
 setup(
-    name="TransCord",
-    version="1.2",
+    name="DiscordVideoCompressor2025",
+    version="1.3",
     description="Transcode video files to fit discord weight limit",
     author="MightyPotatoast",
     options=dict(build_exe=buildOptions),
