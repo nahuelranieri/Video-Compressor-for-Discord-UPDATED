@@ -6,17 +6,14 @@ Since Discord updated their upload limits (10mb for the free tier, 50mb for the 
 
 ## Getting Started
 
-Download [TransCord.zip](https://github.com/Mightypotatoast/Video-Compressor-for-Discord/releases)
+Download [DiscordVideoCompressor.zip](https://github.com/nahuelranieri/Video-Compressor-for-Discord-UPDATED/releases)
 
-extract it anywhere
+Extract it anywhere.
 
-### Prerequisites
-
-A working windows pc
 
 ## Usage
 
-1. run main.exe<br />
+1. Run main.exe<br />
    ![launch dat .exe](/img/launch.png)
 
 2. Choose your input video<br />
